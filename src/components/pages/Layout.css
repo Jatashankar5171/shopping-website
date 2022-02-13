@@ -1,0 +1,45 @@
+.Header{
+    top: 0;
+    height: 64px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    background-color: coral;
+}
+.Header h1{
+    margin: 8px;
+}
+.Column-Container{
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+    column-gap: 4px;
+}
+.Category{
+    height: 90vh;
+    background-color: bisque;
+}
+.Product-List{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+.Mini-Cart{
+    height: 90vh;
+    overflow-y: auto;
+}
+.tt{
+    color: blue;
+    font-size: 24px;
+}
+.Cart{
+    margin-top: 64px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;   
+}

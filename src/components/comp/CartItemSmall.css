@@ -1,0 +1,44 @@
+.Item-Container-Small{
+    height: 128px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid bisque;
+    border-radius: 4px;
+    margin: 8px;
+    padding: 8px;
+}
+.Item-Details-Small{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 4px;
+}
+.Item-Details-Small h1{
+    font-size: 14px;
+}
+.Item-Details-Small h2{
+    font-size: 10px;
+    height: 128px;
+    overflow-y: hidden;
+}
+.Item-Counts-Small{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 128px;
+    width: 64px;
+}
+.Item-Container-Small h1{
+    font-size: 12px;   
+}
+.Button-Container-Small{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
